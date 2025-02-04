@@ -1,17 +1,34 @@
 # Command-Line Calculator (C++)
+This is a simple command-line calculator written in C++. It supports basic arithmetic operations and additional functions like exponentiation and square root. The calculator also keeps a history of calculations, which is saved to a file for persistence.
 
-A simple C++ command-line calculator that supports basic arithmetic operations, exponentiation, square root calculations, and history tracking.
+## Features
+### Basic Arithmetic Operations
++ Addition
+- Subtraction
+* Multiplication
+/ Division (with division-by-zero protection)
 
-## 📌 Features
-✅ Addition, Subtraction, Multiplication, and Division  
-✅ Exponentiation (Power function)  
-✅ Square Root Calculation  
-✅ Error Handling (Invalid input, division by zero, negative square root)  
-✅ Calculation History  
+### Advanced Operations
+^ Exponentiation
+sqrt Square Root
+
+### History Feature
+Stores calculation history in a file (history.txt).
+Users can view previous calculations even after restarting the program.
+
+### Error Handling
+Prevents invalid input (e.g., non-numeric values).
+Prevents division by zero.
+Prevents square root of negative numbers.
+
+### Improved User Experience
+
+Operators are clearly listed before entering inputs.
+The program follows a logical input flow to avoid confusion.
 
 ---
 
-## 🛠️ Installation and Setup
+## Installation and Setup
 
 ### **1. Install MinGW (GCC Compiler)**
 If you don’t have a C++ compiler, install MinGW-w64:
