@@ -3,27 +3,27 @@ This is a simple command-line calculator written in C++. It supports basic arith
 
 ## Features
 ### Basic Arithmetic Operations
-+ Addition
+- Addition
 - Subtraction
-* Multiplication
-/ Division (with division-by-zero protection)
+- Multiplication
+- Division (with division-by-zero protection)
 
 ### Advanced Operations
-^ Exponentiation
-sqrt Square Root
+- Exponentiation
+- sqrt Square Root
 
 ### History Feature (Non-Persistent)
-Tracks calculations only while the program is running
+- Tracks calculations only while the program is running
 
 ### Error Handling
-Prevents invalid input (e.g., non-numeric values).
-Prevents division by zero.
-Prevents square root of negative numbers.
+- Prevents invalid input (e.g., non-numeric values).
+- Prevents division by zero.
+- Prevents square root of negative numbers.
 
 ### Improved User Experience
 
-Operators are clearly listed before entering inputs.
-The program follows a logical input flow to avoid confusion.
+- Operators are clearly listed before entering inputs.
+- The program follows a logical input flow to avoid confusion.
 
 ---
 
